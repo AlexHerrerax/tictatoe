@@ -1,0 +1,58 @@
+body {
+    background-color: #6CB682;
+    color: white;
+    display: flex;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 50px;
+  }
+ 
+  .board {
+    border: 3px solid #63ADE2;
+    background: black;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 1px;
+    margin: 30px;
+  }
+  
+  .squares {
+    background: #63ADE2 ;
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .X {
+    color: #E66C75;
+  }
+  
+  .O {
+    color:#D4F572;
+  }
+  
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .btnreset {
+     display: flex;
+     position: absolute;
+     margin-left: 50px;
+  }
+
+  .header {
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      padding-left: 180px; 
+  }
